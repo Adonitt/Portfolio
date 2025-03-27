@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c27b6c5-8f7c-43bc-92db-542b55f2ccee" name="Changes" comment="3" />
+    <list default="true" id="2c27b6c5-8f7c-43bc-92db-542b55f2ccee" name="Changes" comment="3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media_phone.css" beforeDir="false" afterPath="$PROJECT_DIR$/media_phone.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,10 +73,10 @@
       <recent name="C:\Users\Asus\OneDrive\Desktop\Portfolio\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Asus\OneDrive\Desktop\Portfolio\html" />
       <recent name="C:\Users\Asus\OneDrive\Desktop\Portfolio\assets\imgs" />
       <recent name="C:\Users\Asus\OneDrive\Desktop\Portfolio\json" />
       <recent name="C:\Users\Asus\OneDrive\Desktop\Portfolio\js" />
-      <recent name="C:\Users\Asus\OneDrive\Desktop\Portfolio\html" />
     </key>
   </component>
   <component name="RunManager">
@@ -107,7 +111,7 @@
       <workItem from="1743023584389" duration="11297000" />
       <workItem from="1743044842575" duration="4273000" />
       <workItem from="1743080233369" duration="1716000" />
-      <workItem from="1743081969764" duration="669000" />
+      <workItem from="1743081969764" duration="1717000" />
     </task>
     <task id="LOCAL-00001" summary="created main, about me and skills sections for web and media phone as well">
       <option name="closed" value="true" />
