@@ -1,0 +1,72 @@
+.projects-section {
+    background-color: #141D1B;
+    padding: 50px 0;
+    color: white;
+    text-align: center;
+}
+
+.projects-section h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.projects {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: #1E2A2A;
+    border-radius: 15px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.project-card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF4081; /* Color to match the gradient theme */
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 14px;
+    color: #D7D7D7;
+    margin-bottom: 20px;
+}
+
+.project-card p strong {
+    color: white;
+}
+
+.project-card .btn {
+    background-color: #FF4081;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.project-card .btn:hover {
+    background-color: #673ab7;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
