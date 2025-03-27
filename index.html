@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio - Adonit Halili</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/skills.css">
+    <link rel="stylesheet" href="/css/projects.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/media_phone.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="left-section ">
+        <div>
+            <div class="info">
+                <h3>Hi, I am</h3>
+                <h1>Adonit Halili</h1>
+                <h2>Full-Stack Developer</h2>
+            </div>
+            <div class="social-icons">
+                <a href="https://github.com/Adonitt" class="social-icon github" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/adonit-halili-639b432b8/" class="social-icon linkedin"
+                   target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="/assets/files/Adonit%20Halili%20CV.pdf" class="My CV" target="_blank">
+                    <i class="fas fa-download"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-section ">
+        <nav class="nav">
+            <ul>
+                <li><a href="#about-me" onclick="closeNav()">About me</a></li>
+                <li><a href="#skills" onclick="closeNav()">Skills</a></li>
+                <li><a href="#projects" onclick="closeNav()">Projects</a></li>
+                <li><a href="#footer" class="contact-btn" onclick="closeNav()">Contact me</a></li>
+            </ul>
+        </nav>
+
+        <div class="burger-menu nav" onclick="toggleMenu() ">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+        <div class="image-container">
+            <img src="/assets/imgs/i2.png" alt="Profile Photo">
+        </div>
+    </div>
+</div>
+
+<div class="about-me row" id="about-me">
+    <div class="col-md-9">
+        <h1>About me</h1>
+        <p class="about-me-txt ">Passionate and motivated software developer with a strong foundation in web and
+            mobile
+            development. Proficient
+            in Java, JavaScript, Kotlin, Swift, Python, and Vue.js, with experience using Spring Boot and Thymeleaf for
+            backend
+            development. Currently expanding my expertise in Python and Vue.js. I enjoy solving complex problems,
+            building
+            efficient applications, and continuously learning new technologies. Seeking a web development internship to
+            apply
+            my skills in a real-world environment and grow as a developer.
+        </p>
+    </div>
+
+    <div class="code-img col-md-3">
+        <img src="/assets/imgs/code2.png" alt="Emoji">
+    </div>
+</div>
+<div class="skills-section" id="skills">
+    <hr>
+    <h1>Skills</h1>
+
+    <!-- Frontend Skills -->
+    <div class="skills-category">
+        <h2>Frontend Languages</h2>
+        <div class="skills">
+            <div class="skill-card">
+                <img src="/assets/imgs/html.png" alt="HTML">
+                <p class="skill-txt">HTML 5</p>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/imgs/css.png" alt="CSS">
+                <p class="skill-txt">CSS 3</p>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/imgs/bootstrap.png" alt="Bootstrap">
+                <p class="skill-txt">Bootstrap</p>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/imgs/js.jpeg" alt="JavaScript">
+                <p class="skill-txt">JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/imgs/thymeleaf.png" alt="Thymeleaf">
+                <p class="skill-txt">Thymeleaf</p>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/imgs/vue.png" alt="VueJs">
+                <p class="skill-txt">VueJs</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Backend Skills -->
+    <div class="skills-category">
+        <h2>Backend Languages</h2>
+        <div class="skills">
+            <div class="skill-card">
+                <img src="/assets/imgs/java.png" alt="Java">
+                <p class="skill-txt">Java</p>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/imgs/jsb.png" alt="Java Spring Boot">
+                <p class="skill-txt">Spring Boot</p>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/imgs/python.png" alt="Python">
+                <p class="skill-txt">Python</p>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/imgs/kotlin.png" alt="Kotlin">
+                <p class="skill-txt">Kotlin</p>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/imgs/swift.png" alt="Swift">
+                <p class="skill-txt">Swift</p>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/imgs/postgresql.png" alt="PostgreSQL">
+                <p class="skill-txt">PostgreSQL</p>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/imgs/sql.png" alt="MySQL">
+                <p class="skill-txt">MySQL</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Other Skills -->
+    <div class="skills-category">
+        <h2>Other Skills</h2>
+        <div class="skills">
+            <div class="skill-card">
+                <img src="/assets/imgs/eng.png" alt="English">
+                <p class="skill-txt">English Language <br>C1</p>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/imgs/german.png" alt="German">
+                <p class="skill-txt">German Language <br>C1</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tools -->
+    <div class="skills-category">
+        <h2>Tools</h2>
+        <div class="skills">
+            <div class="skill-card">
+                <img src="/assets/imgs/vs2.png" alt="Visual Studio Code">
+                <p class="skill-txt">VS Code</p>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/imgs/jetbrains.png" alt="JetBrains">
+                <p class="skill-txt">JetBrains</p>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/imgs/postman.png" alt="Postman">
+                <p class="skill-txt">Postman</p>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/imgs/figma.png" alt="Figma">
+                <p class="skill-txt">Figma</p>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/imgs/git.png" alt="Git">
+                <p class="skill-txt">Git</p>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/imgs/github.png" alt="GitHub">
+                <p class="skill-txt">GitHub</p>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+</div>
+
+<div class="projects-section" id="projects">
+    <h1>Projects</h1>
+
+    <div class="slider-container">
+        <div class="projects">
+            <div class="project-card">
+                <img src="/assets/imgs/smarttv.png" alt="Project 2">
+                <h3>TV Provider Management System</h3>
+                <p>This is my first Java Spring Boot project, where I managed admins, clients, package offers, and web
+                    design from the admin panel.</p>
+                <p><strong>Tech Stack:</strong> Java, Spring Boot, PostgreSQL, Thymeleaf</p>
+<!--                <a href="#" target="_blank" class="btn">More...</a>-->
+                <a href="https://github.com/Adonitt/TV-Provider" target="_blank" class="btn">GitHub Repo</a>
+            </div>
+
+            <div class="project-card">
+                <img src="/assets/imgs/coffe.png" alt="Project 2">
+                <h3>Coffee System</h3>
+                <p>My first project with an API, where I managed the products of a coffee shop for sale. The total
+                    amount
+                    updated dynamically as I added or removed products, displayed invoices, and more—basically, a
+                    typical
+                    coffee shop system.</p>
+                <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Bootstrap</p>
+<!--                <a href="#" target="_blank" class="btn">More...</a>-->
+                <a href="https://github.com/Adonitt/Caffe-System" target="_blank" class="btn">GitHub Repo</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+<footer class="footer" id="footer">
+    <div class="footer-container">
+        <div class="footer-left">
+            <h3>Adonit Halili</h3>
+            <p>| Full-Stack Developer | <br>Passionate about building efficient & scalable applications.</p>
+        </div>
+        <div class="footer-center">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-right">
+            <h4>Contact</h4>
+            <p><i class="fas fa-envelope"></i> adonit.ha12@gmail.com</p>
+            <p><i class="fas fa-phone"></i> +383 45 350 345</p>
+            <div>
+                <a href="https://github.com/Adonitt" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/adonit-halili-639b432b8/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/adonit.halili.01" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </div>
+    <p class="footer-bottom">© 2025 Adonit Halili. All Rights Reserved.</p>
+</footer>
+
+<script src="/js/main.js"></script>
+</body>
+</html>
