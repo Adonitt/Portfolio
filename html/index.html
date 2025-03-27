@@ -44,7 +44,7 @@
             <ul>
                 <li><a href="#about-me" onclick="closeNav()">About me</a></li>
                 <li><a href="#skills" onclick="closeNav()">Skills</a></li>
-                <li><a href="portfolio.html" onclick="closeNav()">Portfolio</a></li>
+                <li><a href="#projects" onclick="closeNav()">Projects</a></li>
                 <li><a href="#footer" class="contact-btn" onclick="closeNav()">Contact me</a></li>
             </ul>
         </nav>
@@ -200,31 +200,37 @@
     <hr>
 </div>
 
-
 <div class="projects-section" id="projects">
-
     <h1>Projects</h1>
 
-    <div class="projects">
-        <div class="project-card">
-            <img src="/assets/imgs/project1.png" alt="Project 1">
-            <h3>School Management System</h3>
-            <p>A web-based system to manage student records, courses, and teachers efficiently.</p>
-            <p><strong>Tech Stack:</strong> Java, Spring Boot, PostgreSQL, Thymeleaf</p>
-            <a href="https://your-live-demo.com" target="_blank" class="btn">More...</a>
-            <a href="https://github.com/your-repo" target="_blank" class="btn">GitHub Repo</a>
-        </div>
+    <div class="slider-container">
+        <div class="projects">
+            <div class="project-card">
+                <img src="/assets/imgs/smarttv.png" alt="Project 2">
+                <h3>TV Provider Management System</h3>
+                <p>This is my first Java Spring Boot project, where I managed admins, clients, package offers, and web
+                    design from the admin panel.</p>
+                <p><strong>Tech Stack:</strong> Java, Spring Boot, PostgreSQL, Thymeleaf</p>
+<!--                <a href="#" target="_blank" class="btn">More...</a>-->
+                <a href="https://github.com/Adonitt/TV-Provider" target="_blank" class="btn">GitHub Repo</a>
+            </div>
 
-        <div class="project-card">
-            <img src="/assets/imgs/project2.png" alt="Project 2">
-            <h3>Portfolio Website</h3>
-            <p>My personal portfolio showcasing my skills, projects, and experience.</p>
-            <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Bootstrap</p>
-            <a href="https://your-live-demo.com" target="_blank" class="btn">More...</a>
-            <a href="https://github.com/your-repo" target="_blank" class="btn">GitHub Repo</a>
+            <div class="project-card">
+                <img src="/assets/imgs/coffe.png" alt="Project 2">
+                <h3>Coffee System</h3>
+                <p>My first project with an API, where I managed the products of a coffee shop for sale. The total
+                    amount
+                    updated dynamically as I added or removed products, displayed invoices, and more—basically, a
+                    typical
+                    coffee shop system.</p>
+                <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Bootstrap</p>
+<!--                <a href="#" target="_blank" class="btn">More...</a>-->
+                <a href="https://github.com/Adonitt/Caffe-System" target="_blank" class="btn">GitHub Repo</a>
+            </div>
         </div>
     </div>
 </div>
+
 <hr>
 <footer class="footer" id="footer">
     <div class="footer-container">
@@ -256,32 +262,6 @@
     <p class="footer-bottom">© 2025 Adonit Halili. All Rights Reserved.</p>
 </footer>
 
-<script>
-    function toggleMenu() {
-        const nav = document.querySelector('.nav');
-        nav.classList.toggle('active');
-    }
-
-    function closeNav() {
-        const nav = document.querySelector('.nav');
-        nav.classList.remove('active');  // This closes the nav
-
-        const line = document.querySelector('.line');
-        line.classList.remove('active');
-    }
-
-    document.addEventListener('click', function (event) {
-        const nav = document.querySelector('.nav');
-        const burgerMenu = document.querySelector('.burger-menu');
-        // burgerMenu.style.classList.display('hidden');
-
-        if (!nav.contains(event.target) && !burgerMenu.contains(event.target)) {
-            nav.classList.remove('active');
-            const line = document.querySelector('.line');
-            line.classList.remove('active');
-        }
-    });
-
-</script>
+<script src="/js/main.js"></script>
 </body>
 </html>

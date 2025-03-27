@@ -299,5 +299,34 @@
         font-size: 14px;
         text-align: center;
     }
+
+    .slider-container {
+        position: relative;
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+        overflow: hidden;
+    }
+
+
+    .project-card {
+        width: 80%;
+        padding: 20px;
+        border-radius: 10px;
+        margin: auto;
+        text-align: center;;
+    }
+
+    .project-card h3 {
+        margin: auto;
+        display: inline;
+    }
+
+    .project-card img {
+        display: block;
+        margin: 30px auto;
+    }
+
 }
+
 
