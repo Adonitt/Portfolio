@@ -1,6 +1,7 @@
 @media (max-width: 500px) {
     body {
-        margin: 0;
+        margin: auto;
+        /*text-align: center;*/
         width: 100%;
     }
 
@@ -165,9 +166,10 @@
     }
 
     .about-me {
-        background: url("../assets/imgs/code2.png");
+        background: url("./assets/imgs/code2.png");
         position: relative;
         z-index: 1;
+        text-align: center;
         width: 100%;
         margin: 0;
     }
